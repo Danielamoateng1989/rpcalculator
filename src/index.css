@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #245BE6;
+  --color-secondary: #ff3400;
+  --color-accent: #00d9ff;
+  --color-headings: #1b0760;
+  --color-body: #F6F9FC;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #605e6a;
+}
+
+code {
+  font-family: 'Merriweather', serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.heading-1 {
+  margin-top: 60px;
+  text-transform: uppercase;
+  color: var(--color-headings)
+}
+
+.calcButton{
+  background-color: var(--color-headings);
+  margin-top: 80px;
+  font-size: 12px;
+  border-radius: 30px;
+  color: var(--color-body);
+  border-color: var(--color-headings);
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
+
+  
+}
+
+
+.footer-container {
+  
+  background-color:#F5F5F7;
+  margin-bottom: 0;
+}
+
+.text-color {
+  color: "white"
+}
+
+
+/* Add a navigation bar */
+.nav {
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
+}
+
+/* Style the links inside the navigation bar */
+.nav-center {
+ width: 58%;
+ max-width: 80vw;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+}
+.nav-header a {
+ text-decoration: none;
+ color: rgb(97, 94, 94);
+ font-family: 'Merriweather', serif;
+ font-weight: 500;
+ font-size: 1rem;
+
+}
+
+@media screen and (max-width: 500px) {
+  .nav a {
+    float: none;
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+input {
+    background: transparent;  
+    text-align: center;
+    width: 200px;
+    color: #605e6a;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-color:lightgray;
+
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight:900;
+}
+
+.calcButton {
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+i {
+   color: var(--color-accent);
+   font-size: 22px;
+}
+
+.link-btn {
+    height: 100%;
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 10rem;
+  }
+.nav-links {
+    display: block;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    align-items: center;
+  }
+
+  .nav-links li {
+    text-decoration: none;
+    list-style-type: none;
+  }
