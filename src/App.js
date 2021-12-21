@@ -6,6 +6,10 @@ import Main from './components/Main';
 import Graph from './components/Graph';
 import React, {useState} from 'react';
 
+
+
+
+
 function App() {
 
 let [savingsArray, setSavingsArray] = useState([])

@@ -6,9 +6,8 @@ return (
       <div className="nav-center">
         <div className='nav-header'>
         <a class="active" href="#">Home</a>
-        <a href="#"> Search</a>
-        <a href="#"> Contact</a>
-        <a href="#"> Login</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
         </div>
      </div>
     </nav>
