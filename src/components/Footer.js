@@ -1,5 +1,4 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from 'react';
 
 
 const Footer = () => {
@@ -9,15 +8,9 @@ const Footer = () => {
   let year = d.getFullYear();
     
     return (
-        <footer className="footer-container">
-            <Container>
-                <Row>
-                    <Col className="text-center py-3">
-                     Copyright &copy;{year} Daniel Amoateng
-                    </Col> 
-                </Row>
-            </Container>
-        </footer>
+        <div className="footer">
+        <p>Copyright &copy;{year} Daniel Amoateng</p>
+        </div>
     )
 }
 
