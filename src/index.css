@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
 
 :root {
   --color-primary: #245BE6;
@@ -12,12 +13,12 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #605e6a;
 }
 
 code {
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -27,7 +28,9 @@ main {
 .heading-1 {
   margin-top: 60px;
   text-transform: uppercase;
-  color: var(--color-headings)
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-headings);
+  font-weight: bold;
 }
 
 .calcButton{
@@ -49,7 +52,6 @@ main {
 
 
 .footer-container {
-  
   background-color:#F5F5F7;
   margin-bottom: 0;
 }
@@ -64,9 +66,10 @@ main {
   height: 5rem;
   color: white;
   display: flex;
+  font-family: 'Poppins', sans-serif;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-headings);
+  background-color: black;
   position: relative;
   z-index: 1;
   box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
