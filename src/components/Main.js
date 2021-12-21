@@ -2,6 +2,8 @@ import { Container, Row, Col} from "react-bootstrap"
 import React, { useState} from "react"
 import calculator from "../utils/calculator"
 import { ToolTipLite } from 'tooltip-lite';
+import ReactTooltip from 'react-tooltip';
+
 
 
 
