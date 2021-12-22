@@ -7,6 +7,8 @@ import { ToolTipLite } from 'tooltip-lite';
 
 
 
+
+
 const Main = (props) => {
   
 let defaultCalcOptions = {  
@@ -40,7 +42,7 @@ const updateGraph = (event) => {
             
         <Row>
             <h1 className="heading-1">Retirement Planner Calculator</h1>
-            <p className="App">This retirement planner calculator estimate yours expected total retirement savings based on your annual contributions</p>
+            <p className="App">This retirement planner calculator estimates your expected total retirement savings based on your annual contributions</p>
        </Row>
 
        <Row>
