@@ -23,4 +23,4 @@ Payments per Year.
 
 continuously integrating and deploying
 
-https://rpcalculator.netlify.app/
+
