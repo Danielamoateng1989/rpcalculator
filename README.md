@@ -21,6 +21,5 @@ Payments per Year.
 
 
 
-continuously integrating and deploying
 
 
